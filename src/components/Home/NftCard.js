@@ -40,7 +40,7 @@ export default function  ({ title, category, img })  {
             </div>
           </div>
 
-          <div className="border-t-2 border-neutral-100 px-6 py-4 flex justify-between ">
+          <div className="border-t-2 border-neutral-100 px-6 py-4 flex flex-col lg:flex-row lg:justify-between ">
             <button
               type="button"
               className="text-perple bg-bg-gray border border-bg-gray rounded-3xl hover:bg-perple hover:text-white hover:border-white focus:ring-0 focus:outline-none focus:ring-none font-bold font-dMSans text-sm px-4 py-1.5 text-center duration-300"

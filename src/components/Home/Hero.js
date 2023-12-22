@@ -33,10 +33,10 @@ export default function Hero  ()  {
   }, []);
   return (
     <>
-      <div className="py-10 lg:py-20">
-        <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start container mx-auto">
+      <div className="py-10 lg:py-20 px-5 lg:px-20">
+        <div className="flex flex-col lg:flex-row  justify-between items-center lg:items-start container mx-auto">
           <div className="my-auto text-center lg:text-left lg:w-1/2 lg:pr-10">
-            <p className="font-integral font-extrabold text-4xl tracking-tight uppercase pb-5">
+            <p className="font-integral font-extrabold text-4xl tracking-tight uppercase pt-5 pb-5">
               Discover, and collect <br />
               Digital Art NFTs
             </p>

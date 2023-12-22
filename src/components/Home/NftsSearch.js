@@ -40,7 +40,7 @@ export default function NftsSearch  ()  {
   };
 
   return (
-    <div className="py-10 lg:py-20 bg-bg-gray/20">
+    <div className="py-10 lg:py-20 px-5 lg:px-20 bg-bg-gray/20">
       <div className="container mx-auto">
         <div className="flex space-x-4 mb-4">
           <button

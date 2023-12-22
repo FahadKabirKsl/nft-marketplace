@@ -33,6 +33,10 @@ module.exports = {
       // backgroundImage: {
       //   dotbg: "url('./public/images/Dot.png ')",
       // },
+      screens: {
+        md: "1024px",
+        // => @media (min-width: 1440px) { ... }
+      },
     },
   },
   plugins: [],

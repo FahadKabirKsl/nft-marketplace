@@ -1,14 +1,16 @@
 // pages/index.js
 import React from "react";
-
+import Image from "next/image";
 import Layout from "../components/Layout";
 
 import Hero from "@/components/Home/Hero";
 import About from "@/components/Home/About";
 import TopCollect from "@/components/Home/TopCollect";
 import NftsSearch from "@/components/Home/NftsSearch";
+import Collection from "@/components/Home/Collection";
+import Signup from "@/components/Home/Signup";
 
-export default function functionHome  ()  {
+export default function functionHome() {
   return (
     <Layout>
       {/* hero */}
@@ -17,8 +19,13 @@ export default function functionHome  ()  {
       <About />
       {/* top collection */}
       <TopCollect />
+
+      {/* collection */}
+      {/* <Collection /> */}
+      {/* signup */}
+      <Signup />
       {/* nfts search  */}
       <NftsSearch />
     </Layout>
   );
-};
+}

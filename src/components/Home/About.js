@@ -5,7 +5,7 @@ import chart from "../../../public/images/chart.png";
 export default function About  ()  {
   return (
     <>
-      <div className="py-20 bg-bg-gray/20">
+      <div className="py-10 lg:py-20 px-5 lg:px-20 bg-bg-gray/20">
         <div className=" container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-20 gap-2 justify-between items-center">
             <div className="lg:col-span-2  mb-8 sm:mb-0">
