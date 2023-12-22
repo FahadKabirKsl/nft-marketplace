@@ -5,7 +5,7 @@ import i2 from "../../../public/images/2.png";
 import i3 from "../../../public/images/3.png";
 import i4 from "../../../public/images/4.png";
 import i5 from "../../../public/images/5.png";
-export default function NftsSearch  ()  {
+export default function NftsSearch() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [visibleCards, setVisibleCards] = useState(6);
 
@@ -44,13 +44,17 @@ export default function NftsSearch  ()  {
       <div className="container mx-auto">
         <div className="flex space-x-4 mb-4">
           <button
-            className={`category-btn ${selectedCategory === "all" && "active  "}`}
+            className={`category-btn ${
+              selectedCategory === "all" && "active  "
+            }`}
             onClick={() => handleCategoryChange("all")}
           >
             All Categories
           </button>
           <button
-            className={`category-btn ${selectedCategory === "art" && "active "}`}
+            className={`category-btn ${
+              selectedCategory === "art" && "active "
+            }`}
             onClick={() => handleCategoryChange("art")}
           >
             Art
@@ -76,17 +80,18 @@ export default function NftsSearch  ()  {
             />
           ))}
         </div>
-
-        {visibleCards < filteredNfts.length && (
-          <button
-            type="button"
-            className="load-more-btn"
-            onClick={handleLoadMore}
-          >
-            Load More
-          </button>
-        )}
+        <div className="flex justify-center items-center pt-10">
+          {visibleCards < filteredNfts.length && (
+            <button
+              type="button"
+              className="text-perple bg-white border border-perple rounded-3xl hover:bg-perple hover:border-perple hover:text-white focus:ring-0 focus:outline-none focus:ring-none font-bold font-dMSans text-sm px-10 py-1.5  duration-300 text-center  "
+              onClick={handleLoadMore}
+            >
+              Load More
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
-};
+}

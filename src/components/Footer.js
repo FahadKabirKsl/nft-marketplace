@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 export default function Footer() {
   return (
-    <footer className="py-20 ">
+    <footer className="py-20 px-5 lg:px-40">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 ">
           <div className="lg:col-span-2 col-span-1">

@@ -13,7 +13,7 @@ export default function Navbar  ()  {
 
   return (
 
-    <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200  px-5 lg:px-40">
+    <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200  px-5 lg:px-20">
       <div className=" flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <div>
           <Link href="/" legacyBehavior passHref>
