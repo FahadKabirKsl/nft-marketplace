@@ -9,14 +9,14 @@ import i5 from "../../../public/images/5.png";
 import i6 from "../../../public/images/6.png";
 import blackarrow from "../../../public/images/blackarrow.png";
 import grennarrow from "../../../public/images/greenarrow.png";
-export default function TopCollect  ()  {
+export default function TopCollect() {
   return (
     <>
       <div className="py-10 lg:py-20">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
             <div className="w-full lg:w-8/12 lg:border-r lg:pr-8">
-              <div className="flex flex-col lg:justify-between">
+              <div className="flex flex-col lg:justify-between lg:flex-row ">
                 <div className="w-full lg:w-9/12 lg:mb-5">
                   <Image
                     src={i1}
@@ -276,6 +276,4 @@ export default function TopCollect  ()  {
       </div>
     </>
   );
-};
-
-
+}
