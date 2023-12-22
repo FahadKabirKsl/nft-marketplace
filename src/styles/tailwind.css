@@ -1,0 +1,20 @@
+/* styles/tailwind.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+
+.category-btn {
+  background-color: transparent;
+  color: #000; /* Default text color */
+  border-radius: 10px 10px 10px 10px;
+  padding: 8px 16px;
+
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-btn.active {
+  background-color: #3d00b7; /* Active background color */
+  color: #fff; /* Active text color */
+}
