@@ -5,7 +5,7 @@ import i2 from "../../../public/images/2.png";
 import i3 from "../../../public/images/3.png";
 import i4 from "../../../public/images/4.png";
 import i5 from "../../../public/images/5.png";
-const NftsSearch = () => {
+export default function NftsSearch  ()  {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [visibleCards, setVisibleCards] = useState(6);
 
@@ -90,5 +90,3 @@ const NftsSearch = () => {
     </div>
   );
 };
-
-export default NftsSearch;

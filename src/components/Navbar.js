@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+export default function Navbar  ()  {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -91,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+

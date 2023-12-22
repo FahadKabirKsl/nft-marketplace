@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import grennarrow from "../../../public/images/greenarrow.png";
-const NftCard = ({ title, category, img }) => {
+export default function  ({ title, category, img })  {
   return (
     <>
       <div>
@@ -61,4 +61,3 @@ const NftCard = ({ title, category, img }) => {
   );
 };
 
-export default NftCard;

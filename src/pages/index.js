@@ -8,7 +8,7 @@ import About from "@/components/Home/About";
 import TopCollect from "@/components/Home/TopCollect";
 import NftsSearch from "@/components/Home/NftsSearch";
 
-const Home = () => {
+export default function functionHome  ()  {
   return (
     <Layout>
       {/* hero */}
@@ -16,11 +16,9 @@ const Home = () => {
       {/* about */}
       <About />
       {/* top collection */}
-      <TopCollect/>
+      <TopCollect />
       {/* nfts search  */}
-      <NftsSearch/>
+      <NftsSearch />
     </Layout>
   );
 };
-
-export default Home;

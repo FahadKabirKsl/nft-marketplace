@@ -2,7 +2,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "../styles/globals.css";
-const Layout = ({ children }) => {
+export default function Layout  ({ children })  {
   return (
     <div>
       <Navbar />
@@ -12,4 +12,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+

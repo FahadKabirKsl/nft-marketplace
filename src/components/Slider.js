@@ -6,7 +6,7 @@ import Image from "next/image";
 import i1 from "../../public/1.jpg";
 import i2 from "../../public/2.jpg";
 
-const Slider = () => {
+export default function Slider  ()  {
   useEffect(() => {
     const swiper = new Swiper(".swiper", {
       effect: "cards",
@@ -78,4 +78,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+

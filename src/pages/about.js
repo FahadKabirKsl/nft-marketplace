@@ -1,7 +1,7 @@
 // pages/about.js
 import Layout from '../components/Layout';
 
-const About = () => {
+export default function About  ()  {
   return (
     <Layout>
       <div className="text-center">
@@ -12,4 +12,4 @@ const About = () => {
   );
 };
 
-export default About;
+

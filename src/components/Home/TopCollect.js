@@ -9,7 +9,7 @@ import i5 from "../../../public/images/5.png";
 import i6 from "../../../public/images/6.png";
 import blackarrow from "../../../public/images/blackarrow.png";
 import grennarrow from "../../../public/images/greenarrow.png";
-const TopCollect = () => {
+export default function TopCollect  ()  {
   return (
     <>
       <div className="py-10 lg:py-20">
@@ -278,4 +278,4 @@ const TopCollect = () => {
   );
 };
 
-export default TopCollect;
+

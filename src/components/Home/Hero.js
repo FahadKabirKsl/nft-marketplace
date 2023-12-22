@@ -4,7 +4,7 @@ import Image from "next/image";
 import herobg from "../../../public/images/temp.png";
 import seal from "../../../public/images/seal.png";
 
-const Hero = () => {
+export default function Hero  ()  {
   const [animatedNumbers, setAnimatedNumbers] = useState({
     artworks: 0,
     auctions: 0,
@@ -93,4 +93,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+

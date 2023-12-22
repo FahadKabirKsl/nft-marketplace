@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import tick from "../../../public/images/tick.png";
 import chart from "../../../public/images/chart.png";
-const About = () => {
+export default function About  ()  {
   return (
     <>
       <div className="py-20 bg-bg-gray/20">
@@ -58,4 +58,4 @@ const About = () => {
   );
 };
 
-export default About;
+
