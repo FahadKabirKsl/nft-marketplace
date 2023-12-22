@@ -228,7 +228,7 @@ const TopCollect = () => {
                         </p>
                       </div>
                     </div>
-                    <p className="my-auto font-dMSans text-xl text-cyan font-semibold">
+                    <p className="my-auto font-dMSans text-xl text-cyan font-semibold ">
                       +26.52%
                     </p>
                   </div>
